@@ -1,0 +1,49 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color:rgb(191, 243, 243);
+    margin: 20px;
+}
+
+.titulos { 
+    color: white; 
+}
+
+.img {
+    width: 100px;
+    height: 100px;
+}
+
+.contenedor{
+    background-color: rgb(32, 25, 25);
+    border-color: rgb(65, 35, 236);
+    border-radius: 3em;
+    height: 400px;
+    width: 25vw;
+    margin: auto;   
+   margin-block-end: 2em;
+}
+
+#principal {
+    background-color: rgb(38, 51, 136);
+    border-radius: 10em;
+    width: 80vw;
+    margin: auto;
+    text-align: center;
+    padding: 0.1em;
+}
+
+#rabit{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items:center; 
+}
+#subtitulo{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.img:hover{ /* Pseudoselector: Cuando pasemos el cursor en la imagen desde la web cambia de color */
+    background-color: rgb(178, 250, 186);
+    border-radius: 3em;
+}
